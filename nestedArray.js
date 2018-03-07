@@ -8,7 +8,6 @@ let abjad = 'abcdefghijklmnopqrstuvwxyz'
   for (var i = 0; i < jrow; i++) {
     arrPusat.push([])
     for (var j = 0; j < jcol; j++) {
-      let temp='A'
       arrPusat[i].push(abjad[Math.floor(Math.random() * 26)])
     }
   }
