@@ -8,7 +8,7 @@ function createNestedArr(jumlahRow, jumlagCol){
             colArray.push(alphabet.charAt(Math.floor(Math.random()*alphabet.length)))
         }
         bigWrapArray.push(colArray)
-    }
+    } 
     return bigWrapArray;
 }
 
