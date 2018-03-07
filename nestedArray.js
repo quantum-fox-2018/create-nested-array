@@ -16,7 +16,6 @@ function createNestedArr(jumlahRow, jumlahCol) {
     }
 
     console.log(result)
-
 }
 
 createNestedArr(5,3)
