@@ -1,5 +1,5 @@
 function createNestedArray(jumlahRow, jumlahCol){
-  var result = [];
+  var hasil = [];
 
   for(var i=0; i<jumlahRow; i++){
     var row = [];
@@ -8,9 +8,9 @@ function createNestedArray(jumlahRow, jumlahCol){
       row.push(random);
 
     }
-    result.push(row);
+    hasil.push(row);
   }
-  return result;
+  return hasil;
 }
 
 console.log(createNestedArray(5,3));
